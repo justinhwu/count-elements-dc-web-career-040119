@@ -3,7 +3,7 @@ def count_elements(array)
   new_hash = {}
   counter = 0 
   array.each do |names|
-    counter = counter
+    counter = count()
   end
     new_hash
 end
