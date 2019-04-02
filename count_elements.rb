@@ -1,7 +1,7 @@
 def count_elements(array)
   # code goes here
   new_hash = {}
-  array.map do |names|
+  array.each do |names|
     
     
     new_hash
