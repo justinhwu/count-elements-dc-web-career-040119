@@ -1,6 +1,6 @@
 def count_elements(array)
   # code goes here
-  new_hash = Hash.new(0)
+  new_hash = {}
   array.group_by do |names|
     
     
