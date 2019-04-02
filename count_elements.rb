@@ -5,6 +5,7 @@ def count_elements(array)
   array.each do |names|
     if new_hash.has_key?(names)
       counter +=1
+      new_hash[names] = counter
     else
       new_hash[names] = counter
     end
